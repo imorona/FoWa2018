@@ -1,1 +1,2 @@
-# FoWa2018
+# EATCLUB
+Phillips Andover Academy Eat Club 
