@@ -135,7 +135,7 @@ a:focus {
 #mission,
 #help,
 #media,
-#pastchallenges{
+#team{
   color: #656565;
   padding-top: 100px;
   padding-bottom: 100px;
@@ -145,13 +145,13 @@ a:focus {
 #mission,
 #help,
 #media,
-#pastchallenges{
+#team{
   text-align: center;
 }
 
 #about,
 #help,
-#pastchallenges {
+#team {
   background: rgb(240,240,240);
 }
 
@@ -467,27 +467,27 @@ a:focus {
 
 
 
-/* pastchallenges section */
-#pastchallenges h3 {
+/* team section */
+#team h3 {
   padding-bottom: 0px;
 }
 
-#pastchallenges .pastchallenges-des h4 {
+#team .team-des h4 {
   color: #666;
   padding-top: 0px;
   padding-bottom: 10px;
 }
 
-#pastchallenges img {
+#team img {
   width: 100%;
 }
 
-#pastchallenges .pastchallenges-thumb {
+#team .team-thumb {
   width: 100%;
   position: relative;
 }
 
-#pastchallenges .pastchallenges-des {
+#team .team-des {
   background: #ffffff;
   box-shadow: 0px 2px 8px 0px rgba(50, 50, 50, 0.04);
   position: absolute;
@@ -497,20 +497,20 @@ a:focus {
   overflow: hidden;
   transition: height 450ms;
 }
-#pastchallenges .pastchallenges-thumb:hover .pastchallenges-des {
+#team .team-thumb:hover .team-des {
   color: #ffffff;
   height: 100%;
   background-color: #c21500;
   padding-top: 30%;
   opacity: 0.9;
 }
-#pastchallenges .pastchallenges-thumb:hover h3,
-#pastchallenges .pastchallenges-thumb:hover h4,
-#pastchallenges .pastchallenges-thumb:hover .social-icon li a {
+#team .team-thumb:hover h3,
+#team .team-thumb:hover h4,
+#team .team-thumb:hover .social-icon li a {
   color: #eee;
 }
 
-#pastchallenges .join-pastchallenges {
+#team .join-team {
   background-color: #c21500;
   color: #f0f0f0;
   padding: 30px 20px;
@@ -520,11 +520,11 @@ a:focus {
   box-sizing: border-box;
   display: block;
 }
-#pastchallenges .join-pastchallenges .fa {
+#team .join-team .fa {
   font-size: 32px;
   padding-bottom: 14px;
 }
-#pastchallenges .join-pastchallenges .btn {
+#team .join-team .btn {
   background-color: transparent;
   border: 3px solid #ffffff;
   color: #ffffff;
@@ -532,14 +532,14 @@ a:focus {
   padding: 6px 26px;
   margin-top: 18px;
 }
-#pastchallenges .join-pastchallenges .btn:hover {
+#team .join-team .btn:hover {
   color: #222;
 }
 
-#pastchallenges .col-md-6 {
+#team .col-md-6 {
   padding-top: 62px;
 }
-#pastchallenges .col-md-6 h2 {
+#team .col-md-6 h2 {
   padding-bottom: 16px;
 }
 
@@ -844,11 +844,11 @@ footer strong {
     margin-top: 42px;
   }
 
-  #pastchallenges .pastchallenges-thumb {
+  #team .team-thumb {
     margin-top: 20px;
     margin-bottom: 20px;
   }
-  #pastchallenges .join-pastchallenges {
+  #team .join-team {
     padding: 71px 50px;
     margin-top: 20px;
   }
@@ -916,7 +916,7 @@ footer strong {
   #mission,
   #help,
   #media
-  #pastchallenges{
+  #team{
     padding-top: 80px;
     padding-bottom: 80px;
   }
@@ -931,7 +931,4 @@ footer strong {
   }
 
   footer {text-align: center;}
-
-
-
 }
