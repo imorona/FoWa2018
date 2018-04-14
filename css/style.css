@@ -72,6 +72,14 @@ h5 {
   margin-top: 8px;
 }
 
+h6 {
+  color: #333;
+  font-size: 30px;
+  line-height: 26px;
+  letter-spacing: 1px;
+  padding-bottom: 10px;
+}
+
 p {
   font-size: 18px;
   letter-spacing: 0.8px;
@@ -131,8 +139,9 @@ a:focus {
 /* ---------------------------------------------------------------
 
 /* All Section styles */
+#solution,
 #about,
-#mission,
+#results,
 #help,
 #media,
 #team{
@@ -141,17 +150,18 @@ a:focus {
   padding-bottom: 100px;
 }
 
+#solution,
 #about,
-#mission,
+#results,
 #help,
 #media,
 #team{
   text-align: center;
 }
 
-#about,
+#solution,
 #help,
-#team {
+#team{
   background: rgb(240,240,240);
 }
 
@@ -161,10 +171,10 @@ a:focus {
 .section-title {
   padding-bottom: 70px;
 }
+#solution .section-title,
 #about .section-title,
-#mission .section-title,
 #media .section-title,
-#menu .section-title {
+#menu .section-title{
   text-align: left;
 }
 #contact .section-title {
@@ -319,13 +329,13 @@ a:focus {
 
 
 /* About section */
-#about .about-thumb {
+#about .solution-thumb {
   background-color: #ffffff;
   position: relative;
   padding: 40px;
   margin-top: 32px;
 }
-#about .about-icon {
+#about .solution-icon {
   background-color: #222;
   width: 85px;
   height: 85px;
@@ -342,14 +352,14 @@ a:focus {
   text-align: center;
   transition: all 0.4s ease-in-out;
 }
-#about .about-icon:hover {
+#about .solution-icon:hover {
   background-color: #c21500;
 }
-#about .about-icon span {
+#about .solution-icon span {
   display: table-cell;
   vertical-align: middle;
 }
-#about .about-icon .fa {
+#about .solution-icon .fa {
   color: #ffffff;
   font-size: 36px;
   margin: 0;
@@ -544,16 +554,14 @@ a:focus {
   padding-bottom: 16px;
 }
 
-
-
-/* mission section */
-#mission .mission-thumb {
+/* results section */
+#results .results-thumb {
   position: relative;
   overflow: hidden;
   margin: 0;
 }
 
-#mission .mission-thumb .mission-overlay {
+#results .results-thumb .results-overlay {
   background: #c21500;
   position: absolute;
   top: 0;
@@ -567,11 +575,11 @@ a:focus {
   transition: all 0.4s ease-in-out;
 }
 
-#mission .mission-thumb:hover .mission-overlay {
+#results .results-thumb:hover .results-overlay {
     opacity: 0.9;
 }
 
-#mission .mission-thumb .mission-overlay .mission-item {
+#results .results-thumb .results-overlay .results-item {
     text-align: center;
     position: absolute;
     top:50%;
@@ -581,7 +589,7 @@ a:focus {
           transform:translate(-50%,-50%);
 }
 
-#mission .mission-thumb .fa {
+#results .results -thumb .fa {
   background: #ffffff;
   border-radius: 100%;
   font-size: 24px;
@@ -838,7 +846,7 @@ footer strong {
   }
 
   #feature .col-md-4:last-child,
-  #about .col-md-4 {
+  #solution .col-md-4 {
     margin-top: 42px;
   }
   #help .col-md-4 {
@@ -882,7 +890,7 @@ footer strong {
   }
 
   #feature .col-md-4,
-  #about .col-md-5,
+  #solution .col-md-5,
   #help .col-md-5,
   footer .col-md-4 {
     padding-top: 20px;
@@ -913,8 +921,9 @@ footer strong {
     padding-bottom: 80px;
   }
 
+  #solution,
   #about,
-  #mission,
+  #results,
   #help,
   #media
   #team{
