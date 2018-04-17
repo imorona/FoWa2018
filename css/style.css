@@ -894,7 +894,7 @@ footer strong {
   }
 
   #feature .col-md-4:last-child,
-  #solution .col-md-4 {
+  #solution .col-md-4 { 
     margin-top: 42px;
   }
   #help .col-md-4 {
